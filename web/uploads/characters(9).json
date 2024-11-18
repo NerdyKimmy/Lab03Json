@@ -1,0 +1,25 @@
+[
+    {
+        "id": "1",
+        "name": "Character1",
+        "city": "City1",
+        "class": "Warrior",
+        "specialization": "Tank",
+        "attack": 10,
+        "defense": 5,
+        "knowledge": 7,
+        "spellPower": 3
+    },
+    {
+        "id": "2",
+        "name": "Character2",
+        "city": "City2",
+        "class": "Mage",
+        "specialization": "Healer",
+        "attack": 5,
+        "defense": 3,
+        "knowledge": 15,
+        "spellPower": 20
+    }
+]
+

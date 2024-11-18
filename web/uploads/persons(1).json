@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1731803224,
+    "first_name": "312",
+    "last_name": "321",
+    "gender": "Male",
+    "age": "132"
+  },
+  {
+    "id": 1731803246,
+    "first_name": "Allan",
+    "last_name": "Bodoyev",
+    "gender": "Male",
+    "age": "32"
+  },
+  {
+    "id": 1731803259,
+    "first_name": "Illar",
+    "last_name": "Bat",
+    "gender": "Male",
+    "age": "25"
+  },
+  {
+    "id": 1731803281,
+    "first_name": "Ioanna",
+    "last_name": "bat",
+    "gender": "Female",
+    "age": "12"
+  }
+]
