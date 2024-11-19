@@ -76,10 +76,10 @@ $this->title = 'Characters';
 
 <?php
 $this->registerJs(<<<JS
-    // Сохраняем исходный порядок строк таблицы
+    
     var originalRows = $('#characters-table tbody tr').toArray();
 
-    // Поиск в таблице
+   
     $('#search-box').on('input', function() {
         var searchTerm = $(this).val().toLowerCase();
         $('#characters-table tbody tr').each(function() {
@@ -91,7 +91,7 @@ $this->registerJs(<<<JS
     $('#characters-table thead th[data-sort="number"]').on('click', function() {
         var columnIndex = $(this).index();
         var rows = $('#characters-table tbody tr').toArray();
-        var currentSortState = $(this).data('sort-state') || 'unsorted'; // Текущее состояние сортировки
+        var currentSortState = $(this).data('sort-state') || 'unsorted'; 
 
         $('#characters-table thead th').data('sort-state', 'unsorted');
         $('#characters-table thead th .sort-indicator').text('');
