@@ -9,7 +9,7 @@ $this->title = 'Upload JSON';
 
     <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
 
-    <?= $form->field($model, 'jsonFile')->fileInput() ?>
+    <?= $form->field($model, 'jsonFile')->fileInput(['accept' => 'application/json']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Upload', ['class' => 'btn btn-primary']) ?>

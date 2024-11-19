@@ -1,4 +1,15 @@
 {
+    "1": {
+        "id": 2,
+        "name": "Casmetra",
+        "city": "Cove",
+        "class": "Mage",
+        "specialization": "Sea Witch",
+        "attack": 2,
+        "defense": 1,
+        "knowledge": 3,
+        "spellPower": 1
+    },
     "2": {
         "id": 3,
         "name": "Eovacius",
